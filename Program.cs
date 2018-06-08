@@ -35,7 +35,8 @@ namespace ConsoleTest
         }          
         static void Main(string[] args)
         {
-            int n = 6;
+            Console.WriteLine("Digite um valor:");
+            int n = Int32.Parse(Console.Read());
             staircase(n);
         }
     }
